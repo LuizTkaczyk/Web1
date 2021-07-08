@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(201, 228, 233);
+}
+
+#titulo {
+  font-family: "Zen Loop", cursive;
+  font-size: 33pt;
+  text-align: center;
+}
+
+#tituloTexto {
+  font-family: "Zen Tokyo Zoo", cursive;
+  text-align: center;
+
+}
+
+#texto {
+  font-family: "Festive", cursive;
+  text-align: justify;
+  font-size: 15pt;;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-family: "Zen Loop", cursive;
+    font-size: 15pt;
+   
+}
+
+#btn1{
+    background-color: blue;
+    border-radius: 3pt;
+}
+
+#btnAlinhar{
+    text-align: center;
+}
+
+#img1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    
+}
