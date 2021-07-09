@@ -35,6 +35,7 @@ a{
 
 #btnAlinhar{
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #img1{
@@ -42,6 +43,11 @@ a{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
 
-    
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    width: 100%;
 }
