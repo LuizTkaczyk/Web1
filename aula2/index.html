@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Forms em html</title>
+</head>
+
+<body>
+    <form method="GET" action="">
+        <label for="">Nome</label>
+        <input type="text" name="email">
+        <br><br>
+        <label for="">Senha</label>
+        <input type="password" name="senha">
+        <br>
+        <input type="checkbox" name="curso" value="op1">Curso React native
+        <br>
+        <input type="checkbox" name="curso" value="op2">Curso Java
+        <br>
+
+        <input type="radio" name="gender" value="m" checked>Masculino
+        <br>
+        <input type="radio" name="gender" value="f">Feminino
+        <br>
+        <input type="submit">
+        <input type="reset" value="Limpar campos">
+
+        <hr>
+
+        <select name="estado">
+            <option value="RJ">Rio de janeiro</option>
+            <option value="PR" selected>Paraná</option>
+            <option value="SP">São Paulo</option>
+            <option value="SC">Santa Catarina</option>
+        </select>
+
+        <input type="submit">
+
+        <hr>
+
+        <input type="text" name="assunto"><br><br>
+        <textarea name="message" id="" cols="22" rows="5"></textarea>
+        <input type="submit">
+
+        <hr>
+
+        <input type="color" name="cor">
+        <input type="submit">
+        <hr>
+        <br>
+
+        <input type="date" name="data">
+        <input type="submit">
+        <hr>
+        <br><br>
+        <input type="file" name="arquivo"><br>
+        <input type="submit">
+        <hr>
+        <br>
+
+        <input type="number" name="numerico" min="5" max="10">
+        <input type="submit">
+
+        <hr>
+        <input type="tel" name="telefone">
+        <input type="submit">
+        <hr>
+        <input type="email" name="email">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

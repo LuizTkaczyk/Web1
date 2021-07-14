@@ -1,55 +1,86 @@
 body {
+  padding: 0;
+  margin: 0;
   background-color: rgb(201, 228, 233);
 }
+
 
 #titulo {
   font-family: "Zen Loop", cursive;
   font-size: 33pt;
   text-align: center;
-  text-shadow: 0px 0px 15px  black ;
+  text-shadow: 0px 0px 15px black;
 }
 
 #tituloTexto {
   font-family: "Zen Tokyo Zoo", cursive;
   text-align: center;
-
+  padding: auto;
 }
 
 #texto {
   font-family: "Festive", cursive;
   text-align: justify;
-  font-size: 20pt;;
+  font-size: 20pt;
+  padding: 25px;
+  position: absolute;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: "Zen Loop", cursive;
-    font-size: 15pt;
-   
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Zen Loop", cursive;
+  font-size: 15pt;
 }
 
-#btn1{
-    background-color: rgb(0, 0, 0);
-    border-radius: 3pt;
+#btn1 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 3pt;
 }
 
-#btnAlinhar{
-    text-align: center;
-    padding-bottom: 10px;
+#btnAlinhar {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
-#img1{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+#img1 {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-table, th, td{
-    border: 1px solid black;
+table,
+th,
+td {
+  border: 1px solid black;
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
+table {
+  margin: 10px;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+#borda {
+  border: 3px solid black;
+  border-radius: 13px;
+  border-width: 5px;
+  margin: 10px;
+  border-color: yellow blue palegoldenrod red;
+}
+#borda2 {
+  height: 350px;
+  border: 3px solid black;
+  border-radius: 13px;
+  border-width: 5px;
+  margin: 10px;
+  border-color: yellow blue palegoldenrod red;
+}
+
+#imgFundo{
+  display: block;
+  margin: auto;
+  opacity: 0.5;
+ 
 }
