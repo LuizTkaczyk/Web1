@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>JavaScript intermediario</title>
+</head>
+
+<body>
+    <h1>Teste em JavaScript</h1>
+    <img src="https://wallpaperaccess.com/full/168336.jpg" alt="" width="300px">
+
+    <h1 onclick="primeiraFuncao()">Clique aqui</h1>
+
+    <h1 onclick="this.style.color = 'blue'">Clique e mude a cor</h1>
+
+    <label for="">Muda apos dar enter</label>
+    <input id="texto1" type="text" onchange="changeH1(this)">
+    <br>
+
+
+    <label for="">Muda em tempo real</label>
+    <input id="texto2" type="text" oninput="changeH2(this)">
+<h3>Teste em JavaScript</h3>
+
+    <div id="elemento" onclick="hideH1()" onmouseover="onOver(this)" onmouseout="onOut(this)"> CLIQUE AQUI PARA ESCONDER</div>
+
+    <!---->
+</body>
+
+</html>
