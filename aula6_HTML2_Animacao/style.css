@@ -1,0 +1,14 @@
+.tela{
+    background-color: rgb(165, 161, 155);
+    width: 500px;
+    height: 500px;
+    position: relative; /*O conteudo fica "anexado" a div*/ 
+    overflow: hidden; /* o conteudo é mostrado somente dentro da div */
+}
+
+.quadrado{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
