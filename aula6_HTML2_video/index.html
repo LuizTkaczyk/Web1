@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Atributos</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!--
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WXptNpevOTM?autoplay=1&mute=1" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    -->
+
+        <video id="video1" class="video" src="./video/v1.mp4"></video>
+
+        <div class="controle" onmouseleave="sair()" onmouseenter="entra()">
+
+            <img class="btn" onclick="retroceder()" src="./img/back.png" alt="">
+            <img class="btn" onclick="avancar()" src="./img/forward.png" alt="">
+            <img class="btn" onclick="diminuirVelocidade()" src="./img/decrease.png" alt="">
+            <img class="btn" onclick="aumentarVelocidade()" src="./img/increase.png" alt="">
+            <img class="btn" onclick="play()" src="./img/play.png" alt="">
+            <img class="btn" onclick="pause()" src="./img/pause.png" alt="">
+            <img class="btn" onclick="stop()" src="./img/stop.png" alt="">
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
