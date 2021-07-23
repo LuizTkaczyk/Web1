@@ -1,0 +1,34 @@
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{ 
+    /*
+    content: 'Um ';
+    color: blue;
+    font-size: 2rem;
+    */
+    content: "" ;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./img/control.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    
+}
+
+p::selection{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
